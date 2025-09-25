@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guías - App Next</title>
+    <meta
+      name="description"
+      content="Encuentra guías útiles para aprovechar al máximo las aplicaciones móviles de App Next en Argentina."
+    />
+    <meta
+      name="keywords"
+      content="guías, App Next, aplicaciones móviles, tutoriales, Argentina"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header class="site-header header">
+      <div class="container header-container">
+        <div class="logo-container">
+          <a href="/" class="logo-link">
+            <img src="/img/logo.png" alt="App Next" class="logo-img" />
+            <span class="site-name">App Next</span>
+          </a>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Menú">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
+            <li class="nav-item">
+              <a href="/about/" class="nav-link">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="/guides/" class="nav-link">Guías</a>
+            </li>
+            <li class="nav-item">
+              <a href="/help/" class="nav-link">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact/" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="ageVerificationModal" class="modal dwscxzgtsd">
+        <div class="modal-content">
+          <p>
+            <span>¡Bienvenidos!</span>
+            <span
+              >Descubre las mejores aplicaciones móviles en App Next. Al
+              continuar, confirmas que tienes al menos 18 años y resides en
+              Argentina. ¡Explora ahora y encuentra tu app ideal!</span
+            >
+          </p>
+          <button id="confirmButton">Confirmar</button>
+        </div>
+      </section>
+
+      <!-- Sección de Bienvenida a Guías -->
+      <section class="guides-hero-section">
+        <div class="container">
+          <div class="guides-hero-content">
+            <div class="guides-hero-text">
+              <h1 class="guides-title">Guías y Tutoriales</h1>
+              <p class="guides-subtitle">
+                Aprende a sacar el máximo provecho de tus aplicaciones favoritas
+              </p>
+              <div class="guides-description">
+                <p>
+                  Bienvenido a nuestra sección de guías escritas por la
+                  comunidad de App Next. Aquí encontrarás tutoriales detallados,
+                  consejos útiles y trucos avanzados para mejorar tu experiencia
+                  con diversas aplicaciones móviles.
+                </p>
+                <p>
+                  Nuestros usuarios comparten su conocimiento para ayudarte a
+                  descubrir funcionalidades ocultas, optimizar el rendimiento y
+                  resolver problemas comunes. ¿Tienes un truco interesante para
+                  compartir? ¡Contáctanos y podrías ver tu guía publicada aquí!
+                </p>
+              </div>
+              <div class="guides-cta">
+                <a href="/contact/" class="btn btn-primary">Comparte Tu Guía</a>
+                <a href="#guides-list" class="btn btn-secondary"
+                  >Ver Tutoriales</a
+                >
+              </div>
+            </div>
+            <div class="guides-hero-image">
+              <img
+                src="/img/img11.jpeg"
+                alt="Guías y tutoriales en App Next"
+                class="guides-image"
+              />
+              <p class="image-disclaimer">
+                *Imagen ilustrativa. Las imágenes son seleccionadas por el
+                equipo editorial y pueden no representar el contenido exacto de
+                las guías.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Listado de Guías -->
+      <section class="guides-list-section" id="guides-list">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Guías de la Comunidad</h2>
+            <p class="section-subtitle">
+              Tutoriales y consejos escritos por usuarios como tú
+            </p>
+          </div>
+
+          <div class="guides-grid">
+            <!-- Guía 1 -->
+            <div class="guide-card" data-guide-id="optimizar-bateria">
+              <div class="guide-image-container">
+                <img
+                  src="/img/img12.jpeg"
+                  alt="Optimización de batería"
+                  class="guide-image"
+                />
+                <p class="guide-image-disclaimer">
+                  *Imagen ilustrativa seleccionada por administración
+                </p>
+              </div>
+              <div class="guide-content">
+                <h3 class="guide-title">
+                  Cómo optimizar la batería de tu smartphone
+                </h3>
+                <div class="guide-meta">
+                  <p class="guide-author">Por: Carlos Mendoza</p>
+                  <p class="guide-date" data-days-ago="1"></p>
+                </div>
+                <button class="guide-read-more btn btn-primary">
+                  Leer Completo
+                </button>
+              </div>
+            </div>
+
+            <!-- Guía 2 -->
+            <div class="guide-card" data-guide-id="instagram-trucos">
+              <div class="guide-image-container">
+                <img
+                  src="/img/img13.jpeg"
+                  alt="Trucos de Instagram"
+                  class="guide-image"
+                />
+                <p class="guide-image-disclaimer">
+                  *Imagen ilustrativa seleccionada por administración
+                </p>
+              </div>
+              <div class="guide-content">
+                <h3 class="guide-title">
+                  10 trucos avanzados para Instagram que debes conocer
+                </h3>
+                <div class="guide-meta">
+                  <p class="guide-author">Por: Laura Jiménez</p>
+                  <p class="guide-date" data-days-ago="2"></p>
+                </div>
+                <button class="guide-read-more btn btn-primary">
+                  Leer Completo
+                </button>
+              </div>
+            </div>
+
+            <!-- Guía 3 -->
+            <div class="guide-card" data-guide-id="whatsapp-seguridad">
+              <div class="guide-image-container">
+                <img
+                  src="/img/img14.jpeg"
+                  alt="Seguridad en WhatsApp"
+                  class="guide-image"
+                />
+                <p class="guide-image-disclaimer">
+                  *Imagen ilustrativa seleccionada por administración
+                </p>
+              </div>
+              <div class="guide-content">
+                <h3 class="guide-title">
+                  Guía completa de seguridad para WhatsApp
+                </h3>
+                <div class="guide-meta">
+                  <p class="guide-author">Por: Miguel Fernández</p>
+                  <p class="guide-date" data-days-ago="3"></p>
+                </div>
+                <button class="guide-read-more btn btn-primary">
+                  Leer Completo
+                </button>
+              </div>
+            </div>
+
+            <!-- Guía 4 -->
+            <div class="guide-card" data-guide-id="edicion-fotos">
+              <div class="guide-image-container">
+                <img
+                  src="/img/img15.jpeg"
+                  alt="Edición de fotos"
+                  class="guide-image"
+                />
+                <p class="guide-image-disclaimer">
+                  *Imagen ilustrativa seleccionada por administración
+                </p>
+              </div>
+              <div class="guide-content">
+                <h3 class="guide-title">
+                  Edición profesional de fotos desde tu móvil
+                </h3>
+                <div class="guide-meta">
+                  <p class="guide-author">Por: Ana Torres</p>
+                  <p class="guide-date" data-days-ago="4"></p>
+                </div>
+                <button class="guide-read-more btn btn-primary">
+                  Leer Completo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modales de Guías -->
+      <!-- Modal Guía 1 -->
+      <section class="guide-modal" id="modal-optimizar-bateria">
+        <div class="guide-modal-container">
+          <div class="guide-modal-header">
+            <button class="guide-modal-close" aria-label="Cerrar">
+              &times;
+            </button>
+          </div>
+          <div class="guide-modal-content">
+            <div class="guide-modal-image-container">
+              <img
+                src="/img/img12.jpeg"
+                alt="Optimización de batería"
+                class="guide-modal-image"
+              />
+              <p class="guide-modal-image-disclaimer">
+                *Imagen ilustrativa seleccionada por administración
+              </p>
+            </div>
+            <h2 class="guide-modal-title">
+              Cómo optimizar la batería de tu smartphone
+            </h2>
+            <div class="guide-modal-meta">
+              <p class="guide-modal-author">Por: Carlos Mendoza</p>
+              <p class="guide-modal-date" data-days-ago="1"></p>
+            </div>
+            <div class="guide-modal-text">
+              <p>
+                Uno de los problemas más comunes entre los usuarios de
+                smartphones es la duración de la batería. Con el uso intensivo
+                de aplicaciones y funciones, es normal que la batería se agote
+                rápidamente. Aquí te presento algunas estrategias efectivas para
+                maximizar su duración:
+              </p>
+
+              <h3>1. Ajusta el brillo de la pantalla</h3>
+              <p>
+                La pantalla es uno de los componentes que más energía consume.
+                Mantén el brillo a un nivel cómodo pero no excesivo y activa el
+                brillo automático para que se ajuste según las condiciones de
+                luz ambiente.
+              </p>
+
+              <h3>
+                2. Configura adecuadamente el tiempo de espera de la pantalla
+              </h3>
+              <p>
+                Establece un tiempo corto para que la pantalla se apague
+                automáticamente cuando no estás utilizando el dispositivo. Un
+                valor de 30 segundos o 1 minuto es ideal para ahorrar batería.
+              </p>
+
+              <h3>
+                3. Identifica y controla las aplicaciones que consumen más
+                batería
+              </h3>
+              <p>
+                En la sección de batería de tu dispositivo, puedes ver qué
+                aplicaciones consumen más energía. Considera limitar el uso de
+                aquellas que muestran un consumo excesivo o desinstalarlas si no
+                son esenciales.
+              </p>
+
+              <h3>4. Desactiva servicios innecesarios</h3>
+              <p>
+                Funciones como Bluetooth, NFC, GPS y datos móviles consumen
+                mucha batería. Actívalos solo cuando los necesites. Utiliza el
+                modo avión en áreas con mala cobertura o durante la noche.
+              </p>
+
+              <h3>5. Aprovecha el modo de ahorro de batería</h3>
+              <p>
+                La mayoría de los smartphones modernos incluyen un modo de
+                ahorro de batería que limita las actualizaciones en segundo
+                plano, animaciones y otros procesos que consumen energía.
+                Actívalo cuando la batería esté baja o preventivamente.
+              </p>
+
+              <p>
+                Implementando estos consejos, notarás una mejora significativa
+                en la duración de la batería de tu smartphone. Recuerda que el
+                uso que le des a tu dispositivo sigue siendo el factor más
+                determinante, así que adquiere el hábito de utilizar estas
+                estrategias de manera consistente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal Guía 2 -->
+      <section class="guide-modal" id="modal-instagram-trucos">
+        <div class="guide-modal-container">
+          <div class="guide-modal-header">
+            <button class="guide-modal-close" aria-label="Cerrar">
+              &times;
+            </button>
+          </div>
+          <div class="guide-modal-content">
+            <div class="guide-modal-image-container">
+              <img
+                src="/img/img13.jpeg"
+                alt="Trucos de Instagram"
+                class="guide-modal-image"
+              />
+              <p class="guide-modal-image-disclaimer">
+                *Imagen ilustrativa seleccionada por administración
+              </p>
+            </div>
+            <h2 class="guide-modal-title">
+              10 trucos avanzados para Instagram que debes conocer
+            </h2>
+            <div class="guide-modal-meta">
+              <p class="guide-modal-author">Por: Laura Jiménez</p>
+              <p class="guide-modal-date" data-days-ago="2"></p>
+            </div>
+            <div class="guide-modal-text">
+              <p>
+                Instagram es una de las redes sociales más populares
+                actualmente, pero muchos usuarios no conocen todas sus
+                funcionalidades. Aquí te comparto algunos trucos avanzados para
+                sacarle el máximo provecho:
+              </p>
+
+              <h3>1. Crea colecciones organizadas</h3>
+              <p>
+                Además de guardar publicaciones, puedes organizarlas en
+                colecciones temáticas. Mantén presionado el ícono de guardado y
+                podrás crear una nueva colección o añadir a una existente. Ideal
+                para organizar inspiración, recetas, lugares para visitar, etc.
+              </p>
+
+              <h3>2. Filtra comentarios no deseados</h3>
+              <p>
+                En la configuración de privacidad, puedes activar el filtro de
+                comentarios ofensivos o añadir palabras específicas que quieras
+                bloquear, manteniendo así tu cuenta libre de comentarios
+                negativos.
+              </p>
+
+              <h3>3. Programa tus publicaciones</h3>
+              <p>
+                Si tienes una cuenta profesional, puedes programar tus
+                publicaciones e historias con hasta 75 días de antelación, lo
+                que te permite mantener un calendario de contenido consistente.
+              </p>
+
+              <h3>4. Añade música a tus historias sin stickers</h3>
+              <p>
+                Reproduce música en otra aplicación antes de crear tu historia.
+                Instagram detectará automáticamente lo que estás escuchando y te
+                dará la opción de incluirlo sin necesidad de usar el sticker de
+                música.
+              </p>
+
+              <h3>5. Utiliza las búsquedas avanzadas</h3>
+              <p>
+                En la barra de búsqueda, puedes filtrar por cuentas, hashtags,
+                lugares e incluso palabras clave específicas para encontrar
+                exactamente lo que buscas.
+              </p>
+
+              <p>
+                Estos trucos te ayudarán a aprovechar al máximo tu experiencia
+                en Instagram y a destacar tu contenido. Experimenta con ellos y
+                descubre nuevas formas de mejorar tu presencia en esta red
+                social.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal Guía 3 -->
+      <section class="guide-modal" id="modal-whatsapp-seguridad">
+        <div class="guide-modal-container">
+          <div class="guide-modal-header">
+            <button class="guide-modal-close" aria-label="Cerrar">
+              &times;
+            </button>
+          </div>
+          <div class="guide-modal-content">
+            <div class="guide-modal-image-container">
+              <img
+                src="/img/img14.jpeg"
+                alt="Seguridad en WhatsApp"
+                class="guide-modal-image"
+              />
+              <p class="guide-modal-image-disclaimer">
+                *Imagen ilustrativa seleccionada por administración
+              </p>
+            </div>
+            <h2 class="guide-modal-title">
+              Guía completa de seguridad para WhatsApp
+            </h2>
+            <div class="guide-modal-meta">
+              <p class="guide-modal-author">Por: Miguel Fernández</p>
+              <p class="guide-modal-date" data-days-ago="3"></p>
+            </div>
+            <div class="guide-modal-text">
+              <p>
+                WhatsApp es una de las aplicaciones de mensajería más utilizadas
+                en el mundo, por lo que es fundamental mantener nuestra cuenta
+                segura. Aquí te presento una guía completa con consejos
+                esenciales:
+              </p>
+
+              <h3>1. Activa la verificación en dos pasos</h3>
+              <p>
+                Esta función añade una capa adicional de seguridad a tu cuenta.
+                Ve a Ajustes > Cuenta > Verificación en dos pasos y configura un
+                PIN de seis dígitos que se te solicitará periódicamente.
+              </p>
+
+              <h3>2. Revisa y ajusta tus configuraciones de privacidad</h3>
+              <p>
+                En Ajustes > Cuenta > Privacidad puedes controlar quién puede
+                ver tu información personal como la hora de última conexión,
+                foto de perfil, estados e info. Considera limitar estos datos
+                solo a tus contactos.
+              </p>
+
+              <h3>3. Cifrado de extremo a extremo</h3>
+              <p>
+                WhatsApp utiliza cifrado de extremo a extremo por defecto, lo
+                que significa que solo tú y la persona con quien chateas pueden
+                leer los mensajes. Verifica que esta función esté activa en tus
+                chats importantes.
+              </p>
+
+              <h3>4. Bloquea WhatsApp con autenticación biométrica</h3>
+              <p>
+                En Ajustes > Cuenta > Privacidad > Bloqueo con huella
+                digital/Face ID, puedes configurar que se requiera autenticación
+                biométrica para acceder a la aplicación, protegiendo tus
+                conversaciones si alguien tiene acceso físico a tu teléfono.
+              </p>
+
+              <h3>5. Ten cuidado con los grupos</h3>
+              <p>
+                Configura quién puede añadirte a grupos en Ajustes > Cuenta >
+                Privacidad > Grupos. Considera la opción "Mis contactos" o "Mis
+                contactos, excepto..." para mayor control.
+              </p>
+
+              <p>
+                Siguiendo estas recomendaciones básicas, podrás disfrutar de
+                WhatsApp con mayor tranquilidad y privacidad. Recuerda que la
+                seguridad digital es un hábito que debe practicarse
+                constantemente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal Guía 4 -->
+      <section class="guide-modal" id="modal-edicion-fotos">
+        <div class="guide-modal-container">
+          <div class="guide-modal-header">
+            <button class="guide-modal-close" aria-label="Cerrar">
+              &times;
+            </button>
+          </div>
+          <div class="guide-modal-content">
+            <div class="guide-modal-image-container">
+              <img
+                src="/img/img15.jpeg"
+                alt="Edición de fotos"
+                class="guide-modal-image"
+              />
+              <p class="guide-modal-image-disclaimer">
+                *Imagen ilustrativa seleccionada por administración
+              </p>
+            </div>
+            <h2 class="guide-modal-title">
+              Edición profesional de fotos desde tu móvil
+            </h2>
+            <div class="guide-modal-meta">
+              <p class="guide-modal-author">Por: Ana Torres</p>
+              <p class="guide-modal-date" data-days-ago="4"></p>
+            </div>
+            <div class="guide-modal-text">
+              <p>
+                Hoy en día, con las cámaras avanzadas de los smartphones y las
+                aplicaciones adecuadas, es posible lograr ediciones fotográficas
+                profesionales sin necesidad de equipos costosos o software
+                complejo. Te comparto algunos consejos para conseguir resultados
+                impresionantes:
+              </p>
+
+              <h3>1. Utiliza apps de edición profesional</h3>
+              <p>
+                Aplicaciones como Snapseed, Lightroom Mobile o VSCO ofrecen
+                herramientas avanzadas de edición similares a las de programas
+                profesionales de escritorio. Aprender a usar sus funciones
+                principales te dará un control preciso sobre tus imágenes.
+              </p>
+
+              <h3>2. Comienza con los ajustes básicos</h3>
+              <p>
+                Antes de aplicar filtros o efectos, ajusta los parámetros
+                básicos: exposición, contraste, sombras, luces, saturación y
+                balance de blancos. Estos ajustes son la base de una buena
+                edición y mejorarán notablemente tus fotos.
+              </p>
+
+              <h3>3. Aprovecha las herramientas de recorte y perspectiva</h3>
+              <p>
+                Mejora la composición de tus fotos recortándolas adecuadamente y
+                corrigiendo la perspectiva cuando sea necesario. Esto puede
+                transformar una foto promedio en una imagen impactante.
+              </p>
+
+              <h3>4. Retoque selectivo</h3>
+              <p>
+                Utiliza las herramientas de selección y máscaras para aplicar
+                ajustes solo a áreas específicas de la foto. Por ejemplo, puedes
+                iluminar un rostro sin sobreexponer el fondo o intensificar el
+                color del cielo sin afectar el resto de la imagen.
+              </p>
+
+              <h3>5. Mantén un estilo consistente</h3>
+              <p>
+                Si editas fotos para redes sociales o un portfolio, intenta
+                mantener un estilo visual coherente. Puedes guardar tus ajustes
+                como preajustes personalizados y aplicarlos a futuras imágenes
+                para mantener esa consistencia.
+              </p>
+
+              <p>
+                La edición de fotos es tanto técnica como arte. Con práctica y
+                experimentación, desarrollarás tu propio estilo y flujo de
+                trabajo. Lo más importante es divertirte y dejar que tu
+                creatividad fluya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Comparte Tu Guía -->
+      <section class="contribute-section">
+        <div class="container">
+          <div class="contribute-wrapper">
+            <div class="contribute-content">
+              <h2 class="contribute-title">
+                ¿Quieres compartir tu conocimiento?
+              </h2>
+              <p class="contribute-description">
+                En App Next valoramos la experiencia de nuestra comunidad. Si
+                eres experto en alguna aplicación o has descubierto trucos
+                útiles, te invitamos a compartir tu guía con nosotros.
+              </p>
+
+              <div class="contribute-benefits">
+                <div class="benefit-item">
+                  <h3 class="benefit-title">Reconocimiento de la comunidad</h3>
+                  <p>
+                    Tus guías serán leídas por miles de usuarios que valorarán
+                    tus conocimientos y consejos.
+                  </p>
+                </div>
+
+                <div class="benefit-item">
+                  <h3 class="benefit-title">Mejora tu perfil profesional</h3>
+                  <p>
+                    Ser autor de guías técnicas es un gran complemento para tu
+                    currículum y perfil en redes profesionales.
+                  </p>
+                </div>
+
+                <div class="benefit-item">
+                  <h3 class="benefit-title">Ayuda a otros usuarios</h3>
+                  <p>
+                    Tus conocimientos pueden resolver problemas que muchas
+                    personas enfrentan diariamente con sus aplicaciones.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contribute-cta">
+                <a href="/contact/" class="btn btn-primary">Enviar Mi Guía</a>
+              </div>
+            </div>
+            <div class="contribute-image">
+              <img
+                src="/img/img16.jpeg"
+                alt="Comparte tu conocimiento"
+                class="contribution-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Beneficios de Nuestras Guías -->
+      <section class="guides-benefits-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">¿Por qué nuestras guías?</h2>
+            <p class="section-subtitle">
+              Descubre qué hace especiales a las guías de App Next
+            </p>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <div class="benefit-card-content">
+                <h3 class="benefit-card-title">Creadas por usuarios reales</h3>
+                <p class="benefit-card-description">
+                  Nuestras guías son escritas por personas que utilizan estas
+                  aplicaciones diariamente, compartiendo experiencias y
+                  soluciones prácticas basadas en situaciones reales.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-card-content">
+                <h3 class="benefit-card-title">Revisadas por expertos</h3>
+                <p class="benefit-card-description">
+                  Cada guía pasa por un proceso de revisión por nuestro equipo
+                  técnico para garantizar la precisión y calidad de la
+                  información que compartimos.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-card-content">
+                <h3 class="benefit-card-title">Actualizadas constantemente</h3>
+                <p class="benefit-card-description">
+                  Las aplicaciones evolucionan y nuestras guías también. Nos
+                  aseguramos de mantener la información al día con las últimas
+                  versiones y funcionalidades.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-card-content">
+                <h3 class="benefit-card-title">Fáciles de entender</h3>
+                <p class="benefit-card-description">
+                  Explicamos conceptos técnicos de manera sencilla, con pasos
+                  claros que cualquier usuario puede seguir, independientemente
+                  de su nivel de experiencia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Categorías de Guías -->
+      <section class="guides-categories-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Explora por categorías</h2>
+            <p class="section-subtitle">
+              Encuentra guías específicas para tus necesidades
+            </p>
+          </div>
+
+          <div class="categories-container">
+            <div class="category-tab-wrapper">
+              <div class="category-tabs">
+                <button
+                  class="category-tab active"
+                  data-category="productivity"
+                >
+                  Productividad
+                </button>
+                <button class="category-tab" data-category="social">
+                  Redes Sociales
+                </button>
+                <button class="category-tab" data-category="security">
+                  Seguridad
+                </button>
+                <button class="category-tab" data-category="entertainment">
+                  Entretenimiento
+                </button>
+              </div>
+
+              <div class="category-content">
+                <!-- Contenido Productividad -->
+                <div class="category-panel active" id="productivity-panel">
+                  <div class="category-panel-flex">
+                    <div class="category-panel-text">
+                      <h3 class="category-panel-title">
+                        Guías de Productividad
+                      </h3>
+                      <p class="category-panel-description">
+                        Descubre cómo optimizar tu tiempo y mejorar tu
+                        eficiencia con aplicaciones de gestión de tareas, notas,
+                        calendarios y más.
+                      </p>
+                      <ul class="category-topics">
+                        <li>Organización de tareas y proyectos</li>
+                        <li>Gestión eficiente del tiempo</li>
+                        <li>Sincronización entre dispositivos</li>
+                        <li>Automatización de procesos</li>
+                      </ul>
+                      <a href="#guides-list" class="btn btn-secondary"
+                        >Ver Guías</a
+                      >
+                    </div>
+                    <div class="category-panel-image">
+                      <img
+                        src="/img/img17.jpeg"
+                        alt="Guías de productividad"
+                        class="category-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Contenido Redes Sociales -->
+                <div class="category-panel" id="social-panel">
+                  <div class="category-panel-flex">
+                    <div class="category-panel-text">
+                      <h3 class="category-panel-title">
+                        Guías de Redes Sociales
+                      </h3>
+                      <p class="category-panel-description">
+                        Aprende a sacar el máximo provecho de tus redes sociales
+                        favoritas, con consejos para mejorar tu presencia
+                        digital y proteger tu privacidad.
+                      </p>
+                      <ul class="category-topics">
+                        <li>Configuración de privacidad</li>
+                        <li>Trucos para mejorar tus publicaciones</li>
+                        <li>Gestión eficiente de múltiples cuentas</li>
+                        <li>Herramientas de análisis de engagement</li>
+                      </ul>
+                      <a href="#guides-list" class="btn btn-secondary"
+                        >Ver Guías</a
+                      >
+                    </div>
+                    <div class="category-panel-image">
+                      <img
+                        src="/img/img18.jpeg"
+                        alt="Guías de redes sociales"
+                        class="category-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Contenido Seguridad -->
+                <div class="category-panel" id="security-panel">
+                  <div class="category-panel-flex">
+                    <div class="category-panel-text">
+                      <h3 class="category-panel-title">Guías de Seguridad</h3>
+                      <p class="category-panel-description">
+                        Protege tus dispositivos y datos personales con nuestras
+                        guías de seguridad, enfocadas en prevención de riesgos y
+                        mejores prácticas.
+                      </p>
+                      <ul class="category-topics">
+                        <li>Protección de datos personales</li>
+                        <li>Gestión segura de contraseñas</li>
+                        <li>Detección de aplicaciones maliciosas</li>
+                        <li>Respaldo y recuperación de información</li>
+                      </ul>
+                      <a href="#guides-list" class="btn btn-secondary"
+                        >Ver Guías</a
+                      >
+                    </div>
+                    <div class="category-panel-image">
+                      <img
+                        src="/img/img19.jpeg"
+                        alt="Guías de seguridad"
+                        class="category-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Contenido Entretenimiento -->
+                <div class="category-panel" id="entertainment-panel">
+                  <div class="category-panel-flex">
+                    <div class="category-panel-text">
+                      <h3 class="category-panel-title">
+                        Guías de Entretenimiento
+                      </h3>
+                      <p class="category-panel-description">
+                        Maximiza tu experiencia con aplicaciones de juegos,
+                        streaming, música y más, con consejos para
+                        configuraciones óptimas y funciones avanzadas.
+                      </p>
+                      <ul class="category-topics">
+                        <li>Optimización de calidad de streaming</li>
+                        <li>Trucos para juegos móviles</li>
+                        <li>Personalización de recomendaciones</li>
+                        <li>Sincronización con dispositivos externos</li>
+                      </ul>
+                      <a href="#guides-list" class="btn btn-secondary"
+                        >Ver Guías</a
+                      >
+                    </div>
+                    <div class="category-panel-image">
+                      <img
+                        src="/img/img20.jpeg"
+                        alt="Guías de entretenimiento"
+                        class="category-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Reseñas de Usuarios</h2>
+            <p class="section-subtitle">
+              Lo que dicen nuestros usuarios sobre App Next
+            </p>
+          </div>
+
+          <div class="testimonials-slider-container">
+            <div class="testimonials-slider">
+              <!-- Testimonio 1 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-13.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      Las guías de App Next son increíblemente útiles. Me han
+                      ayudado a configurar aplicaciones nuevas en minutos. ¡Este
+                      portal es un gran recurso para usuarios en Argentina!
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Lucas González</h4>
+                      <p class="author-location">Buenos Aires, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 2 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-19.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      App Next es mi portal favorito para descubrir apps. Las
+                      guías detalladas y el diseño intuitivo hacen que encontrar
+                      y usar nuevas aplicaciones sea muy fácil.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Camila Torres</h4>
+                      <p class="author-location">Córdoba, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 3 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-14.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      El portal de App Next es fantástico. Sus guías me han
+                      ayudado a optimizar el uso de apps de productividad. ¡Un
+                      sitio imprescindible para cualquier usuario de apps!
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Matías Vargas</h4>
+                      <p class="author-location">Rosario, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 4 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-20.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      Las guías de App Next son claras y fáciles de seguir.
+                      Gracias a este portal, he aprendido a usar aplicaciones
+                      que antes me parecían complicadas. ¡Altamente recomendado!
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Florencia Pérez</h4>
+                      <p class="author-location">Mendoza, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 5 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-15.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      App Next ofrece un portal muy bien organizado. Sus guías
+                      sobre aplicaciones educativas son perfectas para encontrar
+                      contenido adecuado para mis hijos.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Sebastián Romero</h4>
+                      <p class="author-location">Salta, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 6 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-21.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      El portal de App Next es súper confiable. Las guías me han
+                      ayudado a descubrir y usar apps de manera segura, lo que
+                      me da mucha tranquilidad.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Julieta Morales</h4>
+                      <p class="author-location">San Juan, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 7 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-16.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      Las guías de App Next son un gran apoyo. He aprendido
+                      trucos para aprovechar al máximo mis aplicaciones
+                      favoritas gracias a este portal tan bien diseñado.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Gabriel Ortiz</h4>
+                      <p class="author-location">Tucumán, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 8 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-22.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      App Next tiene un portal increíblemente útil. Las guías
+                      personalizadas me han permitido explorar nuevas
+                      aplicaciones que se adaptan perfectamente a mis
+                      necesidades.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Victoria Silva</h4>
+                      <p class="author-location">La Plata, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 9 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-17.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      El portal de App Next es muy intuitivo. Sus guías sobre
+                      apps de entretenimiento me han ayudado a encontrar juegos
+                      y contenido que disfruto mucho.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Nicolás Acosta</h4>
+                      <p class="author-location">Neuquén, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 10 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-23.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      Gracias a las guías de App Next, he mejorado mi
+                      experiencia con aplicaciones de salud. El portal es fácil
+                      de usar y está lleno de consejos prácticos.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Lucía Fernández</h4>
+                      <p class="author-location">Mar del Plata, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 11 (Hombre) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-18.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      App Next es el mejor portal para explorar aplicaciones.
+                      Sus guías claras y actualizadas me han ayudado a sacar el
+                      máximo provecho de mi smartphone.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Tomás Benítez</h4>
+                      <p class="author-location">
+                        San Miguel de Tucumán, Argentina
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonio 12 (Mujer) -->
+              <div class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="testimonial-avatar">
+                    <img
+                      src="/img/Face-24.jpeg"
+                      alt="Foto de perfil"
+                      class="avatar-img"
+                    />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      El portal de App Next es excepcional. Las guías me han
+                      enseñado a usar aplicaciones de manera más eficiente, y la
+                      comunidad de usuarios es muy activa y confiable.
+                    </p>
+                    <div class="testimonial-author">
+                      <h4 class="author-name">Agustina López</h4>
+                      <p class="author-location">Bariloche, Argentina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles de navegación -->
+            <div class="testimonial-navigation">
+              <button
+                class="nav-arrow prev-testimonial"
+                aria-label="Testimonio anterior"
+              >
+                ❮
+              </button>
+              <div class="testimonial-dots"></div>
+              <button
+                class="nav-arrow next-testimonial"
+                aria-label="Testimonio siguiente"
+              >
+                ❯
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Preguntas Frecuentes -->
+      <section class="guides-faq-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <p class="section-subtitle">
+              Respuestas a las dudas más comunes sobre nuestras guías
+            </p>
+          </div>
+
+          <div class="guides-faq-container">
+            <div class="guides-faq-item">
+              <div class="guides-faq-question">
+                <h3>¿Cómo puedo contribuir con una guía?</h3>
+                <span class="faq-toggle"></span>
+              </div>
+              <div class="guides-faq-answer">
+                <p>
+                  Para compartir tu guía, simplemente visita nuestra página de
+                  contacto y envíanos tu propuesta. Nuestro equipo editorial la
+                  revisará y se pondrá en contacto contigo para los siguientes
+                  pasos.
+                </p>
+              </div>
+            </div>
+
+            <div class="guides-faq-item">
+              <div class="guides-faq-question">
+                <h3>¿Puedo sugerir temas para futuras guías?</h3>
+                <span class="faq-toggle"></span>
+              </div>
+              <div class="guides-faq-answer">
+                <p>
+                  ¡Por supuesto! Valoramos mucho las sugerencias de nuestra
+                  comunidad. Puedes enviarnos tus ideas a través del formulario
+                  de contacto, especificando qué temas te gustaría ver cubiertos
+                  en nuestras próximas guías.
+                </p>
+              </div>
+            </div>
+
+            <div class="guides-faq-item">
+              <div class="guides-faq-question">
+                <h3>¿Con qué frecuencia se publican nuevas guías?</h3>
+                <span class="faq-toggle"></span>
+              </div>
+              <div class="guides-faq-answer">
+                <p>
+                  Publicamos nuevas guías regularmente, dependiendo de la
+                  disponibilidad de contenido de calidad y las tendencias
+                  actuales en aplicaciones móviles. Te recomendamos visitar esta
+                  sección periódicamente para descubrir nuevas guías.
+                </p>
+              </div>
+            </div>
+
+            <div class="guides-faq-item">
+              <div class="guides-faq-question">
+                <h3>¿Las guías son compatibles con todos los dispositivos?</h3>
+                <span class="faq-toggle"></span>
+              </div>
+              <div class="guides-faq-answer">
+                <p>
+                  Intentamos que nuestras guías sean lo más universales posible,
+                  indicando cuando hay diferencias significativas entre sistemas
+                  operativos (iOS/Android) o versiones. Cuando una guía es
+                  específica para cierto dispositivo o versión, lo mencionamos
+                  claramente al inicio.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección CTA Final -->
+      <section class="guides-cta-section">
+        <div class="container">
+          <div class="guides-cta-box">
+            <h2 class="guides-cta-title">
+              ¿Necesitas ayuda con una aplicación específica?
+            </h2>
+            <p class="guides-cta-description">
+              Si no encuentras la guía que buscas, contáctanos. Podemos ayudarte
+              directamente o crear una nueva guía sobre el tema.
+            </p>
+            <div class="guides-cta-buttons">
+              <a href="/contact/" class="btn btn-primary">Contactar Soporte</a>
+              <a href="#guides-list" class="btn btn-secondary"
+                >Explorar Más Guías</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-nav">
+          <div class="footer-section">
+            <h3 class="footer-title">Enlaces</h3>
+            <ul class="footer-links">
+              <li><a href="/">Inicio</a></li>
+              <li><a href="/about/">Sobre Nosotros</a></li>
+              <li><a href="/guides/">Guías</a></li>
+              <li><a href="/help/">Ayuda</a></li>
+              <li><a href="/contact/">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3 class="footer-title">Legal</h3>
+            <ul class="footer-links">
+              <li><a href="/terms-conditions/">Términos y Condiciones</a></li>
+              <li><a href="/privacy-policy/">Política de Privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section contact-section">
+            <h3 class="footer-title">Contacto</h3>
+            <ul class="footer-contact-info">
+              <li>
+                <i class="contact-icon email-icon"></i>
+                <a href="mailto:contact@appnext.com">contact@appnext.com</a>
+              </li>
+              <li>
+                <i class="contact-icon phone-icon"></i>
+                <a href="tel:+54911522972612">+54 9 11 5229 72612</a>
+              </li>
+              <li>
+                <i class="contact-icon location-icon"></i>
+                <a
+                  href="https://maps.app.goo.gl/nWwSUkSCxFpXazWX9"
+                  target="_blank"
+                >
+                  Rincón 1374, X5004FCL Córdoba, Argentina
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 App Next. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="/script.js" defer=""></script>
+  </body>
+</html>
